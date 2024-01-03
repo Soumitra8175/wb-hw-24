@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@100;200;300;400;600;700&family=Roboto&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css"
+      integrity="sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/malti page.css" />
+    <title>Eduford</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="sub-header">
+      <nav>
+        <a href="malti page.html" class="">
+          <img src="https://www.studyinbangladesh.com.bd/images/news/site_image_logo_main.png" alt="" class="" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="malti page.html" class="">HOME</a>
+            </li>
+            <li>
+              <a href="m.p.about.html" class="">ABOUT</a>
+            </li>
+            <li>
+              <a href="m.p.courese.html" class="">COURSE</a>
+            </li>
+            <li>
+              <a href="m.p.blog.html" class="">BLOG</a>
+            </li>
+            <li>
+              <a href="m.p.contact.html" class="">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- End Header Section -->
+
+    <!-- Contact Us -->
+    <section class="location">
+     
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.178629361598!2d91.86874127417812!3d24.89796754375794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375055980dfb7a93%3A0x80e6ee73a7db9407!2z4Ka54Ka-4KaT4Kef4Ka-IOCmquCmvuCnnOCmviDgprbgprngp4DgpqYg4Kau4Ka_4Kao4Ka-4KawLCBIYXdhcGFyYSBTYWhlZWQgTWluYXI!5e1!3m2!1sen!2sbd!4v1700497525504!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+      
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div class="">
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Apon Gulzar Tower, 000-Dishari</h5>
+              <p>Hawapara Rd, Sylhet</p>
+            </span>
+          </div>
+          <div class="">
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+8801714000000</h5>
+              <p>Monday - 10AM to 6PM,</p>
+              <p>Tuesday to Sunday-6PM to 10PM</p>
+            </span>
+          </div>
+          <div class="">
+            <i class="fa fa-envelope"></i>
+            <span>
+              <h5>soumitra@info.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Your Name"
+              
+            />
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter Your Email"
+              
+            />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Your Subject"
+              
+            />
+            <textarea
+              name=""
+              id=""
+              rows="8"
+              placeholder="Message"
+              
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+        Praesentium, esse consectetur quia fuga vero accusantium atque pariatur
+        molestiae at voluptate aliquid!
+      </p>
+      <div class="icons">
+        <a href="https://www.google.com" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com"target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com"target="_blank">
+         <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com"target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> by SNT</p>
+    </section>
+
+    <!-- Javascript part -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- Javascript part -->
+  </body>
+</html>
